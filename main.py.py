@@ -11,5 +11,5 @@ print("Total number of products:")
 print(sum([len(product_dictionary[val]) for val in product_dictionary]))
 
 # Task 2
-number_list = [x**3 for x in range(0, 100) if x % 5 == 0]
-print(number_list)
+number_list1 = [x**3 for x in range(0, 100) if x % 5 == 0]
+print(number_list1)
